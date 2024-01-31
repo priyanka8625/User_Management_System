@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "crud application with express and mongodb",
   "main": "server.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "keywords": [
     "crud",
@@ -14,7 +17,7 @@
   "author": "akshay kashyap",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.0",
+    
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
     "ejs": "^3.1.5",
